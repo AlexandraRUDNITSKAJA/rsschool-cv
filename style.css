@@ -1,0 +1,130 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 69, 45, 0.884);
+    font-size: 45px;
+    margin: 0px 0px 50px 0px;
+    border-bottom: dashed white 2px;
+    height: 100px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    display: block;
+    padding: 0px 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #08c098;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+h3{    
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+h4{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.flex-conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-around;
+}
+
+.text{
+    background-color: rgba(250, 69, 45, 0.884);
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 25px;
+    font-size: 20px;
+    width: 900px;
+    height: 100px;
+    padding: 20px 40px 40px 40px;
+    align-self: center;
+}
+img{
+    width: 335px;
+    height: 400px;
+    object-fit: contain;
+    border: solid white 2px;
+    border-radius: 60px;
+    margin: 20px;
+    float: leftd;
+}
+
+.contacts{
+    background-color: rgba(250, 69, 45, 0.884);
+    border: solid white 2px;
+    border-radius: 25px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.skills{
+    background-color: rgba(250, 69, 45, 0.884);
+    border: solid white 2px;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px;
+ 
+}
+
+.code{
+    background-color: rgba(250, 69, 45, 0.884);
+    border: solid white 2px;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150PX;
+    background-color: rgba(250, 69, 45, 0.884);
+    font-size: 25px;
+    font-weight: b;
+    margin: 50px 0px 0px 0px;
+    border-top: dashed white 2px;
+}
+
+.icone{
+    width: 50px;
+    height: 45px;
+}
