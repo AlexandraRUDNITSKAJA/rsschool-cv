@@ -32,7 +32,7 @@ li a{
 }
 
 body{
-    background-color: #08c0c0;
+    background-color: #08c098;
 }
 
 h1{
@@ -119,7 +119,7 @@ footer{
     height: 150PX;
     background-color: rgba(250, 69, 45, 0.884);
     font-size: 25px;
-    font-weight: bold;
+    font-weight: b;
     margin: 50px 0px 0px 0px;
     border-top: dashed white 2px;
 }
