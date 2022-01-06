@@ -114,11 +114,17 @@ img{
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 100PX;
+    height: 150PX;
     background-color: rgba(250, 69, 45, 0.884);
-    font-size: 45px;
+    font-size: 25px;
+    font-weight: bold;
     margin: 50px 0px 0px 0px;
     border-top: dashed white 2px;
+}
+
+.icone{
+    width: 50px;
+    height: 45px;
 }
